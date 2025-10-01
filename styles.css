@@ -1,0 +1,125 @@
+body {
+    background-image: linear-gradient(120deg, #c4aea2 0%, #3a0658 100%);
+    background-color: #cfe7e9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img__header {
+    height: 300px;
+    background-color: #cfe7e9;
+    border-radius: 20%;
+    filter: drop-shadow(1px 1px 20px rgb(54, 16, 70));
+}
+
+.header {
+    text-align: center;
+}
+
+
+.header__tittle {
+    font-size: 28px;
+}
+
+.header__subtitle {
+    color: rgb(103, 151, 206)
+}
+
+main {
+    border: 1px solid rgb(20, 12, 12);
+    text-align: center;
+}
+
+summary {
+    color: #341744;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+details {
+    border: 1px solid black;
+    width: 260px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 30px;
+}
+
+.skills ul {
+color: rgb(0 190 255);
+}
+
+p {
+    width: 800px;
+    display: inline-block;
+}
+
+.gallery{
+    filter: drop-shadow(1px 1px 20px rgb(54, 16, 70));
+}
+
+.separator {
+    width: 60%;
+    height: 3px;
+    background-color: #cb6fd28a;
+}
+
+.video iframe {
+    width: 277px;
+    height: 490px;
+    border: 1px solid rgb(54, 16, 70);
+    border-radius: 140px;
+    filter: drop-shadow(1px 1px 20px rgb(54, 16, 70));
+}
+
+.ed__table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.ed__table th,
+.ed__table td {
+    border: 3px solid rgb(78, 8, 8);
+    padding: 15px;
+}
+
+.quote {
+    font-size: 32px;
+    font-style: italic;
+    color: #917314d9;
+    text-shadow: 2px 2px 5px blue;
+    filter: drop-shadow(3px 3px 20px rgb(107, 105, 5));
+}
+
+.form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form__control {
+    width: 100%;
+}
+input{
+    background-color: transparent;
+}
+
+.control__text {
+    width: 70%;
+    background-color: transparent;
+}
+
+.form__submit {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    background-color: #c9c9ced0;
+}
+
+.contacts__link {
+    text-decoration: none;
+    color: #000;
+}
